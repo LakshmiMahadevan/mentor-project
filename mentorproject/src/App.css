@@ -1,0 +1,106 @@
+.App {
+    text-align: center;
+    
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .id{
+    font-style:bold;
+  }
+  
+  
+  .App-header {
+    background-color: #d6cb69;
+    
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    min-height: 10vh;
+    line-height: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: rgb(45, 64, 126);
+    padding: 20px 40px;
+  }
+  .image{
+    width:"100px";
+     height:"150px";
+     padding:"20px";
+
+  }
+  .box{
+    padding: 20px;
+  }
+  .author{
+    color: rgba(122, 117, 117, 0.836);
+  }
+  .bookName{
+    
+    font-size:20px;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  
+  
+  
+   
+  .clickButton{
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid rgb(165, 156, 156);
+    width: 20rem;
+    max-width: 50%;
+    margin-left: 0.5rem;
+    color:rgb(143, 179, 102);
+  
+  }
+  .cName{
+    text-decoration-line: line-through;
+  }
+  .bookContent{
+    background-color: rgb(219, 240, 161);
+    box-sizing: border-box;
+    border-radius:12px ;
+    justify-content: center;
+    padding: 20px 5px;
+    margin: 30px;
+    width: 350px;
+    height: 550px;
+    text-align: center;
+    margin-bottom: 50px; 
+  }
+  .button{
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid rgb(165, 156, 156);
+    width: 20rem;
+    max-width: 50%;
+    margin-left: 0.5rem;
+    color:rgb(143, 179, 102);
+  
+  }
